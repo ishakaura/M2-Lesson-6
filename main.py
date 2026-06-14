@@ -1,15 +1,17 @@
-# External CSS Example
+# CSS Selectors Example
 
-html_code = """
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Welcome to CSS</h1>
-    <p>This is an example of External CSS.</p>
-</body>
-</html>
+css_code = """
+h1 {
+    color: blue;
+}
+
+#heading {
+    color: red;
+}
+
+.text {
+    color: green;
+}
 """
 
-print(html_code)
+print(css_code)
